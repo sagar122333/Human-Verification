@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    margin: 4px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    cursor: pointer;
+    visibility: hidden;
+  }

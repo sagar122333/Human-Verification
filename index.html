@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <title>Match Pictures to Verify Humans</title>
+    </head>
+    <body onload="refresh()">
+        <h3>Please click on the identical tiles to verify that you are not a robot</h3>
+        <div id='container'>
+          <img onclick="show('0')" id="img0" src="">
+          <img onclick="show('1')" id="img1" src="">
+          <img onclick="show('2')" id="img2" src="">
+          <img onclick="show('3')" id="img3" src="">
+          <img onclick="show('4')" id="img4" src="">
+          <img onclick="show('5')" id="img5" src="">
+        </div>
+        <button id="reset" onclick="reset()">Resest</button>
+        <button id="btn" onclick="verify()">Verify</button>
+        <p id="para"></p>
+        <script src="./main.js"></script>
+    </body>
+</html>
